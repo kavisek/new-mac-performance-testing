@@ -25,7 +25,7 @@ Results: Matrix multiplication of size 16000x16000 took 16.08 seconds
 
 ![cores](./images/cores.png){ width=25% }
 
-### View GCP Utilization
+### View GPU Utilization
 
 1. Open Activity Monitor
 2. Select Window in the Menu Bar -> GPU History
