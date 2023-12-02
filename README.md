@@ -1,6 +1,6 @@
-# new-mac-performance-testing
+# New Mac Performance Testing
 
-This is a repo on performance testing a back for python and machine learning development. Contains some simple python scripts.
+This is a epo for performance testing a backend for Python and machine learning development.. Contains some simple Python scripts.
 
 - Python Matrix Multiplication
 - GPU Benchmarking (Pytorch) (Notebook)
@@ -13,7 +13,7 @@ poetry shell
 python ./scripts/matrix_multiplication.py
 ```
 
-## 2023 M3 Max Macbook Pro
+## 2023 M3 Max MacBook Pro
 
 Results: Matrix multiplication of size 16000x16000 took 16.08 seconds
 
@@ -34,9 +34,9 @@ Results: Matrix multiplication of size 16000x16000 took 16.08 seconds
 
 ### Machine Learning Performance (Pytorch Matrix Multiplication)
 
-You can view the nootebook [here](./app/nootebooks/gpu_benchmark.ipynb). This notebook runs 30 samples of matrix multiplication of size 50,0000x50,0000 tensor on both the CPU and GPU. The GPU is ~10x faster than the CPU for machine learning workloads using Pytorch.
+You can view the notebook [here](./app/notebooks/gpu_benchmark.ipynb). This notebook runs 30 samples of matrix multiplication of size 50,000x50,000 tensor on both the CPU and GPU. The GPU is ~10x faster than the CPU for machine learning workloads using Pytorch.
 
-I am currently using a 2023 Macbook Pro with a M1 Max Utra Configuration with 16 core CPU and 40 core GPU and 128GB of unified memory (RAM).
+I am currently using a 2023 MacBook Pro with a M1 Max Ultra Configuration with 16 core CPU and 40 core GPU and 128GB of unified memory (RAM).
 
 
 
